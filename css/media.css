@@ -1,0 +1,24 @@
+@media (max-width: 1470px) {
+    .info {
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        display: flex;
+        justify-content: space-around;
+        max-width: unset;
+    }
+    .info__item {
+        display: flex;
+        flex-direction: column;
+    }
+    .preview__line {
+        width: 335px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .preview__line {
+        display: none;
+    }
+}
